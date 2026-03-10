@@ -3,7 +3,7 @@ import keras
 import numpy as np
 import pandas as pd
 from utils import get_model_path
-from tensorflow.keras import layers
+from keras import layers
 from sklearn.preprocessing import StandardScaler
 from constants import MODEL_FOLDER, MODEL_NAME, TARGET, TEST_DATAFRAME, TRAIN_DATAFRAME
 
