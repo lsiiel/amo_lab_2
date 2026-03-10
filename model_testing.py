@@ -1,6 +1,6 @@
 import pandas as pd
 import numpy as np
-import tensorflow as tf
+import keras
 from sklearn.metrics import (
     accuracy_score, precision_score, recall_score, f1_score,
     confusion_matrix, classification_report,
@@ -106,7 +106,7 @@ def main():
     
     # 3. Загрузка модели
     print("Загрузка модели Keras...")
-    model = tf.keras.models.load_model(MODEL_PATH)
+    model = keras.models.load_model(MODEL_PATH)
     print("Модель успешно загружена.")
     
     # 4. Предсказание
