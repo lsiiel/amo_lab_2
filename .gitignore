@@ -14,4 +14,5 @@ cleared_data/
 *.csv
 
 # IDE
-.vscode/
+.vscode/venv
+venv
