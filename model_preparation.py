@@ -1,3 +1,4 @@
+import os
 import pandas as pd
 import numpy as np
 from sklearn.preprocessing import StandardScaler
@@ -35,3 +36,6 @@ df = pd.DataFrame({
     'Прогноз, мм': y_pred[:5]
 })
 print(df.to_string(float_format='%.1f', index=False))
+
+os.makedirs("models", exist_ok=True)
+model.save("models/model.keras")
