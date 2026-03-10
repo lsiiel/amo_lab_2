@@ -3,4 +3,3 @@ tensorflow
 pandas
 numpy
 scikit-learn
-sklearn.metrics
