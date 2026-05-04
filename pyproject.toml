@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "amo-lab-2"
+version = "0.1.0"
+description = "AMO Lab5"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<4.0"
+tensorflow-cpu = "*"
+keras = "*"
+pandas = "*"
+numpy = "*"
+scikit-learn = "*"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
